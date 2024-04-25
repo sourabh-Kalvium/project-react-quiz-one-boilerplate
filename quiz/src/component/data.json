@@ -1,0 +1,137 @@
+[
+    {
+        "question": "At what temperature does water freeze?",
+        "optionA": "50 degrees Celcius",
+        "optionB": "25 degrees Celcius",
+        "optionC": "0 degrees Celcius",
+        "optionD": "-10 degrees Celcius",
+        "answer": "0 degrees Celcius"
+    },
+  
+    {
+        "question": "Who is the author of 'Pride and Prejudice'?",
+        "optionA": "Charles Dickens",
+        "optionB": "Jane Austen",
+        "optionC": "Mark Twain",
+        "optionD": "Leo Tolstoy",
+        "answer": "Jane Austen"
+    },
+  
+    {
+        "question": "What did the bear family eat in 'Goldilocks and the Three Bears'?",
+        "optionA": "Porridge",
+        "optionB": "Pizza",
+        "optionC": "Pancakes",
+        "optionD": "Popcorn",
+        "answer": "Porridge"
+    },
+  
+    {
+        "question": "Which bird is often associated with wisdom?",
+        "optionA": "Eagle",
+        "optionB": "Owl",
+        "optionC": "Sparrow",
+        "optionD": "Peacock",
+        "answer": "Owl"
+    },
+  
+    {
+        "question": "Who is the protagonist in 'The Great Gatsby'?",
+        "optionA": "Jay Gatsby",
+        "optionB": "Nick Carraway",
+        "optionC": "Daisy Buchanan",
+        "optionD": "Tom Buchanan",
+        "answer": "Jay Gatsby"
+    },
+  
+    {
+        "question": "What is the capital city of Australia?",
+        "optionA": "Sydney",
+        "optionB": "Melbourne",
+        "optionC": "Canberra",
+        "optionD": "Perth",
+        "answer": "Canberra"
+    },
+  
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "optionA": "Venus",
+        "optionB": "Mars",
+        "optionC": "Jupiter",
+        "optionD": "Saturn",
+        "answer": "Mars"
+    },
+  
+    {
+        "question": "Who discovered penicillin?",
+        "optionA": "Alexander Fleming",
+        "optionB": "Louis Pasteur",
+        "optionC": "Robert Koch",
+        "optionD": "Joseph Lister",
+        "answer": "Alexander Fleming"
+    },
+  
+    {
+        "question": "What is the chemical symbol for gold?",
+        "optionA": "Au",
+        "optionB": "Ag",
+        "optionC": "Hg",
+        "optionD": "Pb",
+        "answer": "Au"
+    },
+  
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "optionA": "Tomato",
+        "optionB": "Avocado",
+        "optionC": "Onion",
+        "optionD": "Lime",
+        "answer": "Avocado"
+    },
+  
+    {
+        "question": "Which ocean is the largest?",
+        "optionA": "Pacific Ocean",
+        "optionB": "Atlantic Ocean",
+        "optionC": "Indian Ocean",
+        "optionD": "Arctic Ocean",
+        "answer": "Pacific Ocean"
+    },
+  
+    {
+        "question": "Who composed 'The Four Seasons'?",
+        "optionA": "Wolfgang Amadeus Mozart",
+        "optionB": "Johann Sebastian Bach",
+        "optionC": "Antonio Vivaldi",
+        "optionD": "Ludwig van Beethoven",
+        "answer": "Antonio Vivaldi"
+    },
+  
+    {
+        "question": "What is the tallest mountain in the world?",
+        "optionA": "Mount Kilimanjaro",
+        "optionB": "Mount Everest",
+        "optionC": "Mount Fuji",
+        "optionD": "Mount McKinley",
+        "answer": "Mount Everest"
+    },
+  
+    {
+        "question": "What is the main component of the Earth's atmosphere?",
+        "optionA": "Nitrogen",
+        "optionB": "Oxygen",
+        "optionC": "Carbon Dioxide",
+        "optionD": "Argon",
+        "answer": "Nitrogen"
+    },
+  
+    {
+        "question": "What is the chemical formula for water?",
+        "optionA": "HO",
+        "optionB": "H2O",
+        "optionC": "CO2",
+        "optionD": "H2SO4",
+        "answer": "H2O"
+    }
+  ]
+  
