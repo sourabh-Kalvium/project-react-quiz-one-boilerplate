@@ -46,23 +46,34 @@ export default class App extends Component {
 
  handleOptionSelect=(option)=>{
     const{currentQuestionIndex,userSelection}=this.state;
-   if(option){
-    console.log(option)
-    if(Questions[currentQuestionIndex].answer===option){
-      let updatedArr=[...userSelection]
-      updatedArr[currentQuestionIndex]=1
-      this.setState({
-        userSelection:updatedArr
-      })
-    }
-    else if(Questions.answer!==option){
-      let updatedArr=[...userSelection]
-      updatedArr[currentQuestionIndex]=0
-      this.setState({
-        userSelection:updatedArr
-      })
-    }   
-  } 
+    console.log(userSelection[currentQuestionIndex])
+   if(userSelection[currentQuestionIndex] !==1 && userSelection[currentQuestionIndex] !==0){
+    if(option){
+      console.log(option)
+      if(Questions[currentQuestionIndex].answer===option){
+        let updatedArr=[...userSelection]
+        updatedArr[currentQuestionIndex]=1
+        console.log(updatedArr)
+        this.setState({
+          userSelection:updatedArr
+        })
+  
+        alert("correct answer")
+      }
+      else if(Questions.answer!==option){
+        let updatedArr=[...userSelection]
+        updatedArr[currentQuestionIndex]=0
+        this.setState({
+          userSelection:updatedArr
+        })
+        alert("Wrong answer")
+      }   
+     } 
+   }
+   else {
+    alert("Already answered ,attempt next question")
+   }
+   
     
  }
 
@@ -77,8 +88,7 @@ export default class App extends Component {
   render() {
     console.log(this.state)
     const { startgame, endgame, currentQuestionIndex, userSelection } = this.state;
-    console.log(startgame && !endgame)
-    console.log(startgame && endgame)
+    
     return (
       <div>
         {startgame && !endgame ? (

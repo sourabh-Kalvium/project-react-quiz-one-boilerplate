@@ -2,3 +2,24 @@
     background-color: rgb(120, 88, 237);
 
 }
+
+
+.options{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px;
+    gap: 5px;
+    margin-bottom: 20px;
+    
+}
+.options>div{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(181, 181, 198);
+}
+
+.options>div:hover{
+    background-color: antiquewhite;
+}

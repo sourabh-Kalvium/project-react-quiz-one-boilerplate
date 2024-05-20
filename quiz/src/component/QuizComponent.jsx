@@ -16,7 +16,7 @@ export default class QuizComponent extends Component {
          <div><span>{currentIndex+1}</span>of <span>15</span></div>
 
          <h1>{Questions[currentIndex].question}</h1>
-         <div>
+         <div className='options'>
            <div onClick={()=>this.props.checkAnswer(Questions[currentIndex].optionA)}>{Questions[currentIndex].optionA}
            </div>
            <div onClick={()=>this.props.checkAnswer(Questions[currentIndex].optionB)}>    {Questions[currentIndex].optionB}
